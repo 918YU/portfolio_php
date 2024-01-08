@@ -31,7 +31,6 @@ $result = $conn->query($sql);
 // 投稿を表示
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        
         echo '<strong><font color="' .$row["color"].'">' . $row["username"] . "</font>:</strong> " . $row["message"] . "<br>";
     }
 } else {
