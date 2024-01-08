@@ -8,6 +8,7 @@
 <body>
 
 <h2 class="title">掲示板</h2>
+<a href="./createuser.php" class="create-user">ユーザー登録はこちら</a>
 
 <!-- 投稿フォーム -->
 <form action="post.php" method="post">
